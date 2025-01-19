@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-green-500 underline !important;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-md text-white bg-blue-500 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+}
+
+@layer utilities{
+     .text-green-500
+     {
+          color:blue;
+          background:teal;
+       
+     }
+}
+
