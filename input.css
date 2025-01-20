@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
   a {
     @apply text-green-500 underline !important;
   }
@@ -22,4 +22,4 @@
        
      }
 }
-
+ */
